@@ -1,0 +1,114 @@
+[
+  {
+    "title": "Tor: The Second-Generation Onion Router",
+    "authors": "Dingledine, Mathewson, Syverson",
+    "venue": "USENIX Security 2004",
+    "url": "https://www.usenix.org/conference/13th-usenix-security-symposium/tor-second-generation-onion-router",
+    "why": "匿名通信的奠基论文，理解洋葱路由与隐私设计的起点",
+    "level": "L3"
+  },
+  {
+    "title": "Bro: A System for Detecting Network Intruders in Real-Time (Zeek 前身)",
+    "authors": "Vern Paxson",
+    "venue": "USENIX Security 1998",
+    "url": "https://www.usenix.org/conference/usenix-security-98/bro-system-detecting-network-intruders-real-time",
+    "why": "网络入侵检测的开山之作，今天的 Zeek 源于此",
+    "level": "L3"
+  },
+  {
+    "title": "Dynamic Taint Analysis for Automatic Detection, Analysis, and Signature Generation of Exploits",
+    "authors": "Newsome & Song",
+    "venue": "NDSS 2005",
+    "url": "https://www.ndss-symposium.org/ndss2005/",
+    "why": "污点分析自动检测利用的经典，程序分析方向必读",
+    "level": "L4"
+  },
+  {
+    "title": "Deep Learning with Differential Privacy",
+    "authors": "Abadi et al. (Google)",
+    "venue": "ACM CCS 2016",
+    "url": "https://arxiv.org/abs/1607.00133",
+    "why": "差分隐私进入深度学习的里程碑，AI 隐私方向起点",
+    "level": "L4"
+  },
+  {
+    "title": "Membership Inference Attacks Against Machine Learning Models",
+    "authors": "Shokri et al.",
+    "venue": "IEEE S&P 2017",
+    "url": "https://arxiv.org/abs/1610.05820",
+    "why": "成员推断攻击开山作，理解模型本身也是攻击面",
+    "level": "L4"
+  },
+  {
+    "title": "Towards Evaluating the Robustness of Neural Networks (C&W Attack)",
+    "authors": "Carlini & Wagner",
+    "venue": "IEEE S&P 2017",
+    "url": "https://arxiv.org/abs/1608.04644",
+    "why": "对抗样本评估的方法论标杆，安全论文引用王之一",
+    "level": "L4"
+  },
+  {
+    "title": "Meltdown: Reading Kernel Memory from User Space",
+    "authors": "Lipp et al.",
+    "venue": "USENIX Security 2018",
+    "url": "https://arxiv.org/abs/1801.01207",
+    "why": "瞬态执行侧信道时代的开端，硬件安全必读",
+    "level": "L5"
+  },
+  {
+    "title": "Spectre Attacks: Exploiting Speculative Execution",
+    "authors": "Kocher et al.",
+    "venue": "IEEE S&P 2019",
+    "url": "https://arxiv.org/abs/1801.01203",
+    "why": "与 Meltdown 同期改变 CPU 安全格局的论文",
+    "level": "L5"
+  },
+  {
+    "title": "Reflections on Trusting Trust",
+    "authors": "Ken Thompson",
+    "venue": "ACM Turing Award Lecture 1984",
+    "url": "https://dl.acm.org/doi/10.1145/358198.358210",
+    "why": "供应链与信任根的思想源头，安全从业者的哲学课",
+    "level": "L2"
+  },
+  {
+    "title": "Smashing the Stack for Fun and Profit",
+    "authors": "Aleph One",
+    "venue": "Phrack 49, 1996",
+    "url": "http://phrack.org/issues/49/15.html",
+    "why": "栈溢出的启蒙文献，二进制方向人人读过的第一篇",
+    "level": "L2"
+  },
+  {
+    "title": "Top-100 Security Papers (Normalized Ranking)",
+    "authors": "TU Berlin MLSEC",
+    "venue": "持续更新榜单",
+    "url": "https://mlsec.org/topnotch/sec_ntop100.html",
+    "why": "按引用与年份归一化的安全论文总榜，精通阶段的阅读地图",
+    "level": "L5"
+  },
+  {
+    "title": "arXiv cs.CR (Cryptography and Security)",
+    "authors": "arXiv",
+    "venue": "预印本速递",
+    "url": "https://arxiv.org/list/cs.CR/recent",
+    "why": "最新研究先在这里出现，养成每周扫一遍的习惯",
+    "level": "L4"
+  },
+  {
+    "title": "IACR ePrint Archive",
+    "authors": "IACR",
+    "venue": "密码学预印本库",
+    "url": "https://eprint.iacr.org/",
+    "why": "密码学论文的官方集散地，做密码方向绕不开",
+    "level": "L4"
+  },
+  {
+    "title": "四大顶会入口：IEEE S&P / USENIX Security / ACM CCS / NDSS",
+    "authors": "—",
+    "venue": "Security Big-4",
+    "url": "https://www.ndss-symposium.org/",
+    "why": "安全研究的四大顶会，精通阶段的目标与阅读主线；历年论文均官网公开",
+    "level": "L5"
+  }
+]

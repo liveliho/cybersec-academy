@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>CyberSec Academy — 网络安全从入门到精通 | Linux Style Learning Path</title>
+<meta name="description" content="一套开源、可维护的网络安全学习体系：7 个阶段、250+ GitHub 工具、全球论坛与博客、靶场、顶会论文，全部整理成一条从入门到精通的路线。">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='18' fill='%230a0f0a'/><text x='50' y='68' font-size='52' text-anchor='middle' fill='%234ade80' font-family='monospace'>&gt;_</text></svg>">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<div class="scanlines" aria-hidden="true"></div>
+
+<header class="term-window hero">
+  <div class="term-bar">
+    <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+    <span class="term-title">lin@cybersec: ~/academy — bash — 120×36</span>
+    <span class="term-badge">PUBLIC / OPEN SOURCE</span>
+  </div>
+  <nav class="nav">
+    <a href="#roadmap">~/roadmap</a><a href="#tools">~/tools</a><a href="#labs">~/labs</a>
+    <a href="#community">~/community</a><a href="#knowledge">~/knowledge</a><a href="#papers">~/papers</a><a href="#certs">~/certs</a>
+    <a class="nav-gh" href="https://github.com/liveliho/cybersec-academy" target="_blank" rel="noopener">★ GitHub</a>
+  </nav>
+  <div class="hero-body">
+    <pre class="ascii" aria-hidden="true">
+ ██████╗██╗   ██╗██████╗ ███████╗██████╗ ███████╗███████╗ ██████╗
+██╔════╝╚██╗ ██╔╝██╔══██╗██╔════╝██╔══██╗██╔════╝██╔════╝██╔════╝
+██║      ╚████╔╝ ██████╔╝█████╗  ██████╔╝███████╗█████╗  ██║
+██║       ╚██╔╝  ██╔══██╗██╔══╝  ██╔══██╗╚════██║██╔══╝  ██║
+╚██████╗   ██║   ██████╔╝███████╗██║  ██║███████║███████╗╚██████╗
+ ╚═════╝   ╚═╝   ╚════╝ ╚══════╝╚═╝  ╚═╝╚══════╝╚══════╝ ╚═════╝  ACADEMY</pre>
+    <p class="cmdline"><span class="prompt">lin@cybersec:~/academy$</span> <span id="typed">./start_learning.sh --from zero --to mastery</span><span class="cursor">▊</span></p>
+    <h1>网络安全，从入门到精通。</h1>
+    <p class="hero-sub">全球论坛与文章 · GitHub 官方工具 · 实战靶场 · 顶会论文与知识体系 —— 全部收集、核验、分类，整理成 <strong>7 个阶段</strong> 的一条完整路线。不是链接堆砌，是可以逐项打勾走完的体系。</p>
+    <div class="hero-stats" id="stats">
+      <div><b id="st-tools">—</b><span>GitHub 工具（实时抓取）</span></div>
+      <div><b id="st-res">—</b><span>论坛 / 博客 / 知识库</span></div>
+      <div><b id="st-labs">—</b><span>靶场与实训平台</span></div>
+      <div><b id="st-papers">—</b><span>经典论文与顶会入口</span></div>
+      <div><b>7</b><span>学习阶段 L0 → L6</span></div>
+    </div>
+    <p class="hero-cta">
+      <a class="btn" href="#roadmap">$ cd ./roadmap 开始 →</a>
+      <a class="btn ghost" href="#tools">$ ls ./tools 看工具库</a>
+    </p>
+    <p class="warn">⚠ 法律与伦理红线：本站所有技术只用于自有设备、靶场与明确授权的测试。未授权入侵他人系统违法，与水平无关，先学规则，再学技术。</p>
+  </div>
+</header>
+
+<main>
+<section id="roadmap" class="section">
+  <h2><span class="prompt">~/academy$</span> tree ./roadmap <span class="dim">— 七个阶段，逐级通关</span></h2>
+  <p class="sec-sub">每一级都有：要学的知识点 → 要做的实操 → 通关标准（checkbox 可勾选，进度保存在你的浏览器里）。全部勾完再进下一级，拒绝跳级。</p>
+  <p class="overall">总进度 <span id="overall-bar" class="ascii-bar">[░░░░░░░░░░░░░░░░░░░░] 0%</span></p>
+  <div id="levels"></div>
+</section>
+
+<section id="tools" class="section">
+  <h2><span class="prompt">~/academy$</span> ls ./tools <span class="dim">— GitHub 工具库</span></h2>
+  <p class="sec-sub">数据来自 GitHub Search API 实抓（星数/描述/语言均为真实数据，非手写），脚本在 <code>scripts/collect_tools.py</code>，任何人可一键刷新。点分类过滤，输入关键词搜索。</p>
+  <div class="toolbar">
+    <input id="tool-q" type="search" placeholder="$ grep -i 关键字  （如 nmap / fuzz / ad）" aria-label="搜索工具">
+    <select id="tool-sort" aria-label="排序"><option value="stars">★ 星数从高到低</option><option value="updated">最近更新</option><option value="name">名称 A-Z</option></select>
+  </div>
+  <div class="chips" id="tool-cats"></div>
+  <div class="grid" id="tool-grid"></div>
+  <p class="more-row"><button id="tool-more" class="btn ghost">加载更多 ↓</button> <span id="tool-count" class="dim"></span></p>
+</section>
+
+<section id="labs" class="section">
+  <h2><span class="prompt">~/academy$</span> ls ./labs <span class="dim">— 靶场与实训平台</span></h2>
+  <p class="sec-sub">学安全七分靠练。按阶段从上往下打：新手从 TryHackMe / OverTheWire 开始，进阶主攻 Hack The Box 与 CTF 赛事。</p>
+  <div class="grid" id="lab-grid"></div>
+</section>
+
+<section id="community" class="section">
+  <h2><span class="prompt">~/academy$</span> ls ./community <span class="dim">— 全球论坛与博客文章</span></h2>
+  <p class="sec-sub">论坛混口碑与同行，博客追一线研究。英文社区看 r/netsec / Project Zero，中文社区看先知 / 看雪 / FreeBuf。</p>
+  <div class="chips" id="res-chips">
+    <button data-t="forum" class="chip on">论坛社区</button><button data-t="blog" class="chip">博客 / 媒体 / 实验室</button>
+  </div>
+  <div class="grid" id="res-grid"></div>
+</section>
+
+<section id="knowledge" class="section">
+  <h2><span class="prompt">~/academy$</span> ls ./knowledge <span class="dim">— 知识体系与权威手册</span></h2>
+  <p class="sec-sub">遇到问题先查这里：OWASP 管 Web、ATT&amp;CK 管攻防语言、NVD 管漏洞核对、CTF Wiki 管中文体系。</p>
+  <div class="grid" id="know-grid"></div>
+</section>
+
+<section id="papers" class="section">
+  <h2><span class="prompt">~/academy$</span> ls ./papers <span class="dim">— 论文与研究（精通阶段的主线）</span></h2>
+  <p class="sec-sub">从 Phrack 的栈溢出启蒙，到四大顶会的前沿：每篇都标注了为什么读、适合哪个阶段。目标是最终能在这些会议上读懂、复现、乃至发表。</p>
+  <div id="paper-list"></div>
+</section>
+
+<section id="certs" class="section">
+  <h2><span class="prompt">~/academy$</span> cat ./certs.txt <span class="dim">— 认证路线（按阶段对位）</span></h2>
+  <div class="grid" id="cert-grid"></div>
+  <p class="sec-sub dim">说明：认证是求职门票不是能力本身，顺序永远是 先会做 → 再考证。同一阶段选 1 个即可，不要集邮。</p>
+</section>
+
+<section class="section contribute">
+  <h2><span class="prompt">~/academy$</span> sudo contribute <span class="dim">— 这是一个活的工程</span></h2>
+  <p>本站所有内容都是仓库里的 JSON 数据文件：<code>data/tools.json</code>（脚本自动抓取）、<code>data/resources.json</code>、<code>data/roadmap.json</code>、<code>data/papers.json</code>。改数据即可改网站，不需要动代码。欢迎在 GitHub 提 Issue / PR 补充资源，每条资源要求：官网链接 + 一句真实说明 + 适用阶段。</p>
+  <p class="hero-cta"><a class="btn" href="https://github.com/liveliho/cybersec-academy" target="_blank" rel="noopener">$ git clone 本仓库 →</a></p>
+</section>
+</main>
+
+<footer>
+  <p><span class="prompt">lin@cybersec:~/academy$</span> exit <span class="dim"># 学完记得回来更新你的进度</span></p>
+  <p class="dim">CyberSec Academy · 开源学习工程 · 数据来源：GitHub API 实抓 + 全球公开社区人工核验 · 仅供合法授权学习使用</p>
+</footer>
+<script src="assets/app.js"></script>
+</body>
+</html>

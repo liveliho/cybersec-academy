@@ -1,0 +1,718 @@
+[
+  {
+    "name": "r/netsec",
+    "url": "https://www.reddit.com/r/netsec/",
+    "desc": "全球最活跃的安全研究社区之一，只收技术干货、研究与工具发布，灌水会被删",
+    "type": "forum",
+    "region": "global",
+    "level": "L2-L6",
+    "tags": [
+      "研究",
+      "资讯"
+    ]
+  },
+  {
+    "name": "Information Security Stack Exchange",
+    "url": "https://security.stackexchange.com/",
+    "desc": "问答式社区，问题质量高，适合查一个具体概念为什么这样设计",
+    "type": "forum",
+    "region": "global",
+    "level": "L1-L6",
+    "tags": [
+      "问答"
+    ]
+  },
+  {
+    "name": "r/cybersecurity",
+    "url": "https://www.reddit.com/r/cybersecurity/",
+    "desc": "偏职业与行业讨论：转型、认证、蓝队日常",
+    "type": "forum",
+    "region": "global",
+    "level": "L0-L3",
+    "tags": [
+      "职业"
+    ]
+  },
+  {
+    "name": "0x00sec",
+    "url": "https://0x00sec.org/",
+    "desc": "老牌英文技术论坛，逆向、恶意代码与漏洞利用氛围浓",
+    "type": "forum",
+    "region": "global",
+    "level": "L3-L6",
+    "tags": [
+      "逆向",
+      "漏洞"
+    ]
+  },
+  {
+    "name": "Hack The Box Forum",
+    "url": "https://forum.hackthebox.com/",
+    "desc": "HTB 官方论坛，退役靶机讨论与学习路线交流",
+    "type": "forum",
+    "region": "global",
+    "level": "L2-L5",
+    "tags": [
+      "靶场"
+    ]
+  },
+  {
+    "name": "Hacker News (YC)",
+    "url": "https://news.ycombinator.com/",
+    "desc": "安全事件与论文常在这里首发讨论，信息密度极高",
+    "type": "forum",
+    "region": "global",
+    "level": "L2-L6",
+    "tags": [
+      "资讯"
+    ]
+  },
+  {
+    "name": "Bugcrowd Forum / HackerOne Hacktivity",
+    "url": "https://hackerone.com/hacktivity",
+    "desc": "真实漏洞披露报告库：看高手怎么写报告、厂商怎么定级",
+    "type": "forum",
+    "region": "global",
+    "level": "L3-L5",
+    "tags": [
+      "漏洞赏金",
+      "实战报告"
+    ]
+  },
+  {
+    "name": "看雪安全社区",
+    "url": "https://bbs.kanxue.com/",
+    "desc": "国内逆向与二进制安全的标杆论坛，精华帖与 KCTF 质量极高",
+    "type": "forum",
+    "region": "cn",
+    "level": "L3-L6",
+    "tags": [
+      "逆向",
+      "二进制",
+      "CTF"
+    ]
+  },
+  {
+    "name": "吾爱破解",
+    "url": "https://www.52pojie.cn/",
+    "desc": "软件安全与病毒分析老牌论坛，新手教程与工具区对入门友好",
+    "type": "forum",
+    "region": "cn",
+    "level": "L0-L4",
+    "tags": [
+      "逆向",
+      "新手教程"
+    ]
+  },
+  {
+    "name": "先知社区",
+    "url": "https://xz.aliyun.com/",
+    "desc": "阿里云主办，Web/二进制/渗透实战文章密度高，国内一线水平",
+    "type": "forum",
+    "region": "cn",
+    "level": "L2-L5",
+    "tags": [
+      "实战文章"
+    ]
+  },
+  {
+    "name": "FreeBuf",
+    "url": "https://www.freebuf.com/",
+    "desc": "国内最大的安全媒体+社区，资讯、专栏与活动齐全",
+    "type": "forum",
+    "region": "cn",
+    "level": "L0-L4",
+    "tags": [
+      "资讯",
+      "专栏"
+    ]
+  },
+  {
+    "name": "安全客",
+    "url": "https://www.anquanke.com/",
+    "desc": "漏洞情报与研究文章见长，事件时间线整理清楚",
+    "type": "forum",
+    "region": "cn",
+    "level": "L1-L5",
+    "tags": [
+      "漏洞情报"
+    ]
+  },
+  {
+    "name": "奇安信攻防社区",
+    "url": "https://forum.butian.net/",
+    "desc": "补天平台配套社区，攻防与应急响应实战帖多",
+    "type": "forum",
+    "region": "cn",
+    "level": "L2-L5",
+    "tags": [
+      "攻防",
+      "应急"
+    ]
+  },
+  {
+    "name": "i春秋论坛",
+    "url": "https://www.ichunqiu.com/",
+    "desc": "老牌在线学习与竞赛社区，课程+靶场一体",
+    "type": "forum",
+    "region": "cn",
+    "level": "L0-L3",
+    "tags": [
+      "课程",
+      "竞赛"
+    ]
+  },
+  {
+    "name": "PortSwigger Research",
+    "url": "https://portswigger.net/research",
+    "desc": "Burp 团队的研究博客，Web 安全前沿手法的源头之一",
+    "type": "blog",
+    "region": "global",
+    "level": "L3-L6",
+    "tags": [
+      "Web",
+      "研究"
+    ]
+  },
+  {
+    "name": "Google Project Zero",
+    "url": "https://projectzero.google/",
+    "desc": "顶级漏洞研究团队博客，0day 分析的写法范本",
+    "type": "blog",
+    "region": "global",
+    "level": "L4-L6",
+    "tags": [
+      "0day",
+      "漏洞研究"
+    ]
+  },
+  {
+    "name": "Krebs on Security",
+    "url": "https://krebsonsecurity.com/",
+    "desc": "调查记者视角的网络犯罪报道，理解真实攻击产业链必读",
+    "type": "blog",
+    "region": "global",
+    "level": "L1-L5",
+    "tags": [
+      "犯罪生态",
+      "调查"
+    ]
+  },
+  {
+    "name": "Schneier on Security",
+    "url": "https://www.schneier.com/",
+    "desc": "Bruce Schneier 的安全评论，练安全思维与政策视角",
+    "type": "blog",
+    "region": "global",
+    "level": "L1-L6",
+    "tags": [
+      "思维",
+      "政策"
+    ]
+  },
+  {
+    "name": "The Hacker News",
+    "url": "https://thehackernews.com/",
+    "desc": "更新最快的英文安全新闻站之一",
+    "type": "blog",
+    "region": "global",
+    "level": "L0-L4",
+    "tags": [
+      "资讯"
+    ]
+  },
+  {
+    "name": "BleepingComputer",
+    "url": "https://www.bleepingcomputer.com/",
+    "desc": "勒索与恶意软件事件报道快而全",
+    "type": "blog",
+    "region": "global",
+    "level": "L1-L4",
+    "tags": [
+      "恶意软件",
+      "资讯"
+    ]
+  },
+  {
+    "name": "Troy Hunt's Blog",
+    "url": "https://www.troyhunt.com/",
+    "desc": "Have I Been Pwned 作者，数据泄露与 Web 安全科普标杆",
+    "type": "blog",
+    "region": "global",
+    "level": "L1-L4",
+    "tags": [
+      "数据泄露",
+      "Web"
+    ]
+  },
+  {
+    "name": "Daniel Miessler",
+    "url": "https://danielmiessler.com/",
+    "desc": "Unsupervised Learning 作者，安全+AI 的长期深度输出",
+    "type": "blog",
+    "region": "global",
+    "level": "L2-L6",
+    "tags": [
+      "AI安全",
+      "思维"
+    ]
+  },
+  {
+    "name": "Microsoft Security Blog",
+    "url": "https://www.microsoft.com/en-us/security/blog/",
+    "desc": "微软官方威胁情报与 AD/云安全一手资料",
+    "type": "blog",
+    "region": "global",
+    "level": "L2-L5",
+    "tags": [
+      "威胁情报",
+      "云"
+    ]
+  },
+  {
+    "name": "Google Security Blog",
+    "url": "https://security.googleblog.com/",
+    "desc": "Google 官方安全工程与研究发布",
+    "type": "blog",
+    "region": "global",
+    "level": "L2-L5",
+    "tags": [
+      "安全工程"
+    ]
+  },
+  {
+    "name": "Cloudflare Security Blog",
+    "url": "https://blog.cloudflare.com/tag/security/",
+    "desc": "边缘网络、DDoS、BGP 与协议安全的大厂实战",
+    "type": "blog",
+    "region": "global",
+    "level": "L2-L5",
+    "tags": [
+      "网络",
+      "协议"
+    ]
+  },
+  {
+    "name": "Trail of Bits Blog",
+    "url": "https://blog.trailofbits.com/",
+    "desc": "顶级安全咨询公司的审计与工具研究博客",
+    "type": "blog",
+    "region": "global",
+    "level": "L3-L6",
+    "tags": [
+      "审计",
+      "区块链",
+      "工具"
+    ]
+  },
+  {
+    "name": "腾讯玄武实验室",
+    "url": "https://xlab.tencent.com/",
+    "desc": "国内一线实验室，移动与系统漏洞研究",
+    "type": "blog",
+    "region": "cn",
+    "level": "L3-L6",
+    "tags": [
+      "漏洞研究"
+    ]
+  },
+  {
+    "name": "Seebug Paper",
+    "url": "https://paper.seebug.org/",
+    "desc": "知道创宇的论文式文章站，漏洞分析长文质量高",
+    "type": "blog",
+    "region": "cn",
+    "level": "L2-L5",
+    "tags": [
+      "漏洞分析"
+    ]
+  },
+  {
+    "name": "长亭科技安全实验室",
+    "url": "https://research.chaitin.cn/",
+    "desc": "长亭研究团队博客，攻防与产品研究结合",
+    "type": "blog",
+    "region": "cn",
+    "level": "L2-L5",
+    "tags": [
+      "攻防研究"
+    ]
+  },
+  {
+    "name": "OWASP",
+    "url": "https://owasp.org/",
+    "desc": "开放 Web 应用安全项目：Top 10、ASVS、Cheat Sheet 系列的总源头",
+    "type": "knowledge",
+    "region": "global",
+    "level": "L1-L5",
+    "tags": [
+      "Web",
+      "标准"
+    ]
+  },
+  {
+    "name": "OWASP Cheat Sheet Series",
+    "url": "https://cheatsheetseries.owasp.org/",
+    "desc": "每个主题一页的防御速查手册，写代码与做审计时随手查",
+    "type": "knowledge",
+    "region": "global",
+    "level": "L1-L5",
+    "tags": [
+      "速查",
+      "防御"
+    ]
+  },
+  {
+    "name": "MITRE ATT&CK",
+    "url": "https://attack.mitre.org/",
+    "desc": "真实攻击者战术技术的百科全书，攻防双方共同语言",
+    "type": "knowledge",
+    "region": "global",
+    "level": "L2-L6",
+    "tags": [
+      "框架",
+      "蓝队",
+      "红队"
+    ]
+  },
+  {
+    "name": "NVD 国家漏洞库",
+    "url": "https://nvd.nist.gov/",
+    "desc": "CVE 的官方评分与详情库，查漏洞先来这里核对",
+    "type": "knowledge",
+    "region": "global",
+    "level": "L1-L6",
+    "tags": [
+      "CVE",
+      "权威"
+    ]
+  },
+  {
+    "name": "CTF Wiki",
+    "url": "https://ctf-wiki.org/",
+    "desc": "中文 CTF 知识总站，Web/Pwn/逆向/密码/取证系统化整理",
+    "type": "knowledge",
+    "region": "cn",
+    "level": "L1-L5",
+    "tags": [
+      "CTF",
+      "中文"
+    ]
+  },
+  {
+    "name": "Hello-CTF",
+    "url": "https://hello-ctf.com/",
+    "desc": "面向零基础的中文 CTF 开源教程，配套题目齐全（GitHub 4k+ 星）",
+    "type": "knowledge",
+    "region": "cn",
+    "level": "L0-L2",
+    "tags": [
+      "CTF",
+      "新手"
+    ]
+  },
+  {
+    "name": "HackTricks",
+    "url": "https://book.hacktricks.xyz/",
+    "desc": "渗透技法大全，红队查手册的第一选择，持续更新",
+    "type": "knowledge",
+    "region": "global",
+    "level": "L2-L5",
+    "tags": [
+      "渗透",
+      "手册"
+    ]
+  },
+  {
+    "name": "PayloadsAllTheThings",
+    "url": "https://github.com/swisskyrepo/PayloadsAllTheThings",
+    "desc": "各类漏洞 Payload 与绕过技巧合集，实战必备",
+    "type": "knowledge",
+    "region": "global",
+    "level": "L2-L5",
+    "tags": [
+      "Payload"
+    ]
+  },
+  {
+    "name": "GTFOBins",
+    "url": "https://gtfobins.github.io/",
+    "desc": "Linux 提权速查：每个二进制能怎么被滥用都列好了",
+    "type": "knowledge",
+    "region": "global",
+    "level": "L2-L4",
+    "tags": [
+      "提权",
+      "Linux"
+    ]
+  },
+  {
+    "name": "Exploit-DB",
+    "url": "https://www.exploit-db.com/",
+    "desc": "OffSec 维护的公开 Exploit 档案库，配合 searchsploit 本地用",
+    "type": "knowledge",
+    "region": "global",
+    "level": "L2-L6",
+    "tags": [
+      "Exploit"
+    ]
+  },
+  {
+    "name": "CWE 弱点枚举",
+    "url": "https://cwe.mitre.org/",
+    "desc": "漏洞的病理学：按弱点类型理解成因，而不是只记利用",
+    "type": "knowledge",
+    "region": "global",
+    "level": "L2-L5",
+    "tags": [
+      "标准"
+    ]
+  },
+  {
+    "name": "NIST 网络安全框架 CSF",
+    "url": "https://www.nist.gov/cyberframework",
+    "desc": "企业安全治理的事实标准框架，做防御体系绕不开",
+    "type": "knowledge",
+    "region": "global",
+    "level": "L3-L6",
+    "tags": [
+      "治理",
+      "防御体系"
+    ]
+  },
+  {
+    "name": "Cryptopals",
+    "url": "https://cryptopals.com/",
+    "desc": "用编程闯关的方式学应用密码学，学完能看懂真实协议漏洞",
+    "type": "knowledge",
+    "region": "global",
+    "level": "L2-L4",
+    "tags": [
+      "密码学"
+    ]
+  },
+  {
+    "name": "Linux Journey",
+    "url": "https://linuxjourney.com/",
+    "desc": "免费交互式 Linux 入门课，零基础第一站",
+    "type": "knowledge",
+    "region": "global",
+    "level": "L0-L1",
+    "tags": [
+      "Linux",
+      "新手"
+    ]
+  },
+  {
+    "name": "TryHackMe",
+    "url": "https://tryhackme.com/",
+    "desc": "对新手最友好的 guided 靶场，Pre-Security 路径是公认起点",
+    "type": "lab",
+    "region": "global",
+    "level": "L0-L3",
+    "tags": [
+      "新手",
+      "路径"
+    ]
+  },
+  {
+    "name": "Hack The Box",
+    "url": "https://www.hackthebox.com/",
+    "desc": "全球最知名的实战靶场，Academy 学体系、Labs 练机器",
+    "type": "lab",
+    "region": "global",
+    "level": "L2-L6",
+    "tags": [
+      "实战",
+      "AD"
+    ]
+  },
+  {
+    "name": "PortSwigger Web Security Academy",
+    "url": "https://portswigger.net/web-security",
+    "desc": "免费的 Web 安全学院，每个漏洞类别都有讲解+在线实验，金标准",
+    "type": "lab",
+    "region": "global",
+    "level": "L1-L4",
+    "tags": [
+      "Web",
+      "免费"
+    ]
+  },
+  {
+    "name": "OverTheWire",
+    "url": "https://overthewire.org/wargames/",
+    "desc": "Bandit 是练 Linux 命令行最好的闯关游戏，没有之一",
+    "type": "lab",
+    "region": "global",
+    "level": "L0-L2",
+    "tags": [
+      "Linux",
+      "闯关"
+    ]
+  },
+  {
+    "name": "picoCTF",
+    "url": "https://picoctf.org/",
+    "desc": "卡内基梅隆出品，面向初学者的 CTF 平台，常年可练",
+    "type": "lab",
+    "region": "global",
+    "level": "L0-L2",
+    "tags": [
+      "CTF",
+      "新手"
+    ]
+  },
+  {
+    "name": "CTFtime",
+    "url": "https://ctftime.org/",
+    "desc": "全球 CTF 赛事日历与排名，想打比赛先看这里",
+    "type": "lab",
+    "region": "global",
+    "level": "L2-L6",
+    "tags": [
+      "赛事"
+    ]
+  },
+  {
+    "name": "Root Me",
+    "url": "https://www.root-me.org/",
+    "desc": "法语区老牌挑战站，题目量大、类别全",
+    "type": "lab",
+    "region": "global",
+    "level": "L1-L4",
+    "tags": [
+      "挑战"
+    ]
+  },
+  {
+    "name": "PentesterLab",
+    "url": "https://pentesterlab.com/",
+    "desc": "小而精的 Web 渗透系统课，付费但口碑极佳",
+    "type": "lab",
+    "region": "global",
+    "level": "L2-L4",
+    "tags": [
+      "Web",
+      "系统课"
+    ]
+  },
+  {
+    "name": "VulnHub",
+    "url": "https://www.vulnhub.com/",
+    "desc": "可下载的虚拟机靶机库，本地离线练提权与内网",
+    "type": "lab",
+    "region": "global",
+    "level": "L2-L4",
+    "tags": [
+      "本地靶机"
+    ]
+  },
+  {
+    "name": "OWASP Juice Shop",
+    "url": "https://owasp.org/www-project-juice-shop/",
+    "desc": "最现代的故意漏洞电商应用，本地跑、配官方攻略学 Web",
+    "type": "lab",
+    "region": "global",
+    "level": "L1-L3",
+    "tags": [
+      "Web",
+      "本地"
+    ]
+  },
+  {
+    "name": "DVWA",
+    "url": "https://github.com/digininja/DVWA",
+    "desc": "经典的 PHP 漏洞练习应用，入门 Web 漏洞的第一站",
+    "type": "lab",
+    "region": "global",
+    "level": "L1-L2",
+    "tags": [
+      "Web",
+      "本地"
+    ]
+  },
+  {
+    "name": "LetsDefend",
+    "url": "https://letsdefend.io/",
+    "desc": "模拟 SOC 分析师日常的在线蓝队靶场",
+    "type": "lab",
+    "region": "global",
+    "level": "L2-L4",
+    "tags": [
+      "蓝队",
+      "SOC"
+    ]
+  },
+  {
+    "name": "CyberDefenders",
+    "url": "https://cyberdefenders.org/",
+    "desc": "蓝队取证与威胁狩猎挑战库",
+    "type": "lab",
+    "region": "global",
+    "level": "L2-L5",
+    "tags": [
+      "取证",
+      "蓝队"
+    ]
+  },
+  {
+    "name": "Blue Team Labs Online",
+    "url": "https://blueteamlabs.online/",
+    "desc": "蓝队专项训练平台，应急与日志分析题目多",
+    "type": "lab",
+    "region": "global",
+    "level": "L2-L4",
+    "tags": [
+      "蓝队"
+    ]
+  },
+  {
+    "name": "BUUCTF",
+    "url": "https://buuoj.cn/",
+    "desc": "国内最常用的 CTF 练习平台，题库巨大且免费",
+    "type": "lab",
+    "region": "cn",
+    "level": "L1-L4",
+    "tags": [
+      "CTF",
+      "中文"
+    ]
+  },
+  {
+    "name": "攻防世界 XCTF",
+    "url": "https://adworld.xctf.org.cn/",
+    "desc": "国内老牌 CTF 平台，新手区与赛事区齐全",
+    "type": "lab",
+    "region": "cn",
+    "level": "L1-L4",
+    "tags": [
+      "CTF",
+      "中文"
+    ]
+  },
+  {
+    "name": "NSSCTF",
+    "url": "https://www.nssctf.cn/",
+    "desc": "国内活跃 CTF 平台，题目更新快、社区氛围好",
+    "type": "lab",
+    "region": "cn",
+    "level": "L1-L4",
+    "tags": [
+      "CTF",
+      "中文"
+    ]
+  },
+  {
+    "name": "VulFocus",
+    "url": "https://fofapro.github.io/vulfocus/",
+    "desc": "一键 Docker 漏洞环境集成平台，复现 CVE 最方便的国产工具",
+    "type": "lab",
+    "region": "cn",
+    "level": "L2-L4",
+    "tags": [
+      "漏洞复现",
+      "Docker"
+    ]
+  }
+]
